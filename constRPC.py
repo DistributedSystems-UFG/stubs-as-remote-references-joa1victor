@@ -1,12 +1,15 @@
-OK       = '1'
-ADD      = '2'
-APPEND   = '3'
+OK = '1'
+ADD = '2'
+APPEND = '3'
 GETVALUE = '4'
-CREATE   = '5'
-STOP     = '6'
-HOSTS    = ''
-PORTS   = 50004
-PORTC1  = 50053
-PORTC2  = 50054
-HOSTC1  = ''
-HOSTC2  = ''
+CREATE = '5'
+STOP = '6'
+
+HOSTS  = '34.229.186.120'  # SERVER
+PORTS  = 5678
+
+HOSTC1 = '100.26.50.184'   # PEER1
+PORTC1 = 5678
+
+HOSTC2 = '54.173.114.208'  # PEER2
+PORTC2 = 5679
