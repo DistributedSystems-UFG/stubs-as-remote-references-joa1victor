@@ -37,3 +37,6 @@ class Server:
       elif request[0] == STOP:               # request to stop       #-
         conn.close()                         # close the connection  #-
         break                                                        #-
+        
+if __name__ == "__main__":
+    Server().run()
